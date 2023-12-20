@@ -1,0 +1,92 @@
+
+.navbar-container{
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee;
+    box-sizing: border-box;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 1px 2px #eee;
+}
+
+.Navbar .logo{
+    padding: 20px;
+    padding-left: 200px;
+}
+body{
+    margin: 0;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    
+}
+.navmenu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 200px;
+
+}
+.navmenu span{
+    padding: 20px;
+    
+    
+}
+
+.landing-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-bottom: 8vh;
+}
+
+.landing-img img{
+    margin-bottom: 60px;
+    max-height: 45vh;
+    max-width: 100%;
+}
+
+.tag-area{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tag-area h1{
+    margin: 0;
+    font-size: 2.75rem;
+    line-height: 1.25;
+    margin-top: 0px;
+    font-weight: 500;
+    color: #424242;
+    font-family: "Inter",serif;
+}
+
+.tag-secondary{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sign-up-contatiner-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+.Sign-up{
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0) !important;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+}
